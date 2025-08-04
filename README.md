@@ -19,6 +19,5 @@ A responsive front-end clone of the Netflix landing page built using only HTML a
 ## 📁 Project Structure
 netflix-clone/
 ├── tutorial.html
-├── images/
-│ └── background.jpg (or other assets)
+│ └── bg.jpg
 └── README.md
