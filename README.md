@@ -1,4 +1,4 @@
-# 🎬 Netflix Clone (HTML & CSS)
+# 🎬 Netflix Landing Page (HTML & CSS)
 
 A responsive front-end clone of the Netflix landing page built using only HTML and CSS. This project is meant for learning and practice purposes, focusing on layout, styling, and responsive design principles.
 
