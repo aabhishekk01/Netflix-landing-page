@@ -3,8 +3,7 @@
 A responsive front-end clone of the Netflix landing page built using only HTML and CSS. This project is meant for learning and practice purposes, focusing on layout, styling, and responsive design principles.
 
 ## 📸 Preview
-
-!(Screenshot 2025-10-27 222414.png)
+Screenshot 2025-10-27 222414.png
 
 ## 🔧 Features
 
