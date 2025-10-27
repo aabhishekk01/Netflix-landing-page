@@ -4,7 +4,7 @@ A responsive front-end clone of the Netflix landing page built using only HTML a
 
 ## 📸 Preview
 
-![Netflix Clone Screenshot](Screenshot 2025-10-27 222414.png) <!-- Replace with actual screenshot if available -->
+!(Screenshot 2025-10-27 222414.png)
 
 ## 🔧 Features
 
