@@ -1,0 +1,78 @@
+/* Custom Styles for Netflix Landing Page */
+
+body {
+    background-color: #000;
+    background-image: url(https://i.pinimg.com/originals/19/8b/2f/198b2f01e73b905772279616eccc7c65.jpg);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1920x1080?text=Netflix+Background') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.features {
+    background-color: #000;
+}
+
+.faq {
+    background-color: #000;
+}
+
+.footer {
+    background-color: #000;
+    border-top: 1px solid #333;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #333;
+    color: white;
+}
+
+.accordion-body {
+    background-color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}
